@@ -1,31 +1,37 @@
-body{
-    margin: 0px;
+body {
+    margin: 8px;
 }
-main{
+
+main {
     margin-left: 20px;
     margin-right: 20px;
-    background-color: white;
+    background-color: white; /* Set a specific background color for main */
 }
-h1{
+
+h1 {
     text-align: center;
 }
-.navbar ul{
+
+.navbar ul {
     list-style-type: none;
-    background-color: hsl(0, 0%, 25%);
-    padding: 0px;
-    margin: 0px;
+    background-color: hsl(0, 0%, 25%); /* Corrected syntax */
+    padding: 8px;
+    margin: 0;
     overflow: hidden;
 }
-.navbar a{
-    color: white;
+
+.navbar a {
+    color: white; /* Corrected syntax */
     text-decoration: none;
     padding: 15px;
     display: block;
     text-align: center;
 }
-.navbar a:hover{
-    background-color: hsl(0, 0%, 10%);
+
+.navbar a:hover {
+    background-color: hsl(0, 0%, 10%); /* Corrected syntax */
 }
-.navbar li{
+
+.navbar li {
     float: left;
 }
