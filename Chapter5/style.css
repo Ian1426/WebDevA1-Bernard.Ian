@@ -1,0 +1,13 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 0;
+    font-family: Georgia;
+}
+video{
+    max-width: 100%;
+    height: auto;
+}
